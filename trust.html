@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trust Without Identity — PolkaProof</title>
+  <meta name="description" content="PolkaProof makes trust verifiable without requiring identity, intermediaries, or administrative control." />
+  <style>
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+      background:#0b0b12;
+      color:#f2f2ff;
+      line-height:1.65;
+      padding: 32px 18px 48px;
+    }
+    .container{max-width:900px;margin:0 auto}
+    a{color:#a214f3;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .nav{
+      display:flex; gap:14px; flex-wrap:wrap; align-items:center;
+      margin-bottom: 22px;
+    }
+    .nav a{
+      color:#b9b9d6;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 8px 12px;
+      border-radius: 12px;
+    }
+    .nav a.active{color:#f2f2ff}
+    h1{font-size:34px;line-height:1.15;margin: 6px 0 10px}
+    .lead{color:#b9b9d6;font-size:18px;max-width:760px;margin:0 0 18px}
+    .card{
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 18px;
+      margin: 14px 0;
+    }
+    h2{font-size:18px;margin:0 0 8px}
+    p{margin:0 0 10px}
+    p:last-child{margin-bottom:0}
+    .quote{
+      border-left: 3px solid #a214f3;
+      padding-left: 14px;
+      color:#b9b9d6;
+      margin: 14px 0 0;
+    }
+    .cta{
+      display:flex; gap:10px; flex-wrap:wrap;
+      margin-top: 14px;
+    }
+    .btn{
+      display:inline-block;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+      color:#f2f2ff;
+    }
+    .btn.primary{
+      border:none;
+      background: linear-gradient(90deg, #a214f3, #e6007a);
+    }
+    .footer{
+      margin-top: 32px;
+      color:#888;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="trust.html">Trust Without Identity</a>
+      <a href="how.html">How It Works</a>
+      <a href="legal.html">Legal & MiCA</a>
+      <a href="whitepaper.html">Whitepaper</a>
+      <a href="onchain.html">On-Chain Data</a>
+    </div>
+
+    <h1>Trust Without Identity</h1>
+    <p class="lead">
+      Crypto often says “don’t trust, verify” — but in practice, many projects still rely on social trust:
+      founders, teams, reputation, and promises. PolkaProof is designed to make trust verifiable without
+      requiring identity.
+    </p>
+
+    <div class="card">
+      <h2>The problem</h2>
+      <p>
+        In Web3, trust often comes from social signals: follower counts, Discord roles, long threads, or public profiles.
+        This is fragile and creates space for manipulation and scams — especially when identity is unknown or faked.
+      </p>
+      <p class="quote">
+        PolkaProof starts from a simple idea: if something matters, it should be verifiable on-chain — without asking who you are.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>The PolkaProof approach</h2>
+      <p>
+        PolkaProof replaces social trust with publicly verifiable constraints. It does not ask for names,
+        documents, or personal data. Instead, anyone can verify what is true on-chain.
+      </p>
+      <p>
+        This enables trust to emerge from proof and transparent rules — not from identity, authority, or promises.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Why this is real (not marketing)</h2>
+      <p>
+        PolkaProof is built to minimize attack surface and eliminate privileged control:
+        no admin keys, no upgrade mechanisms, and no hidden overrides. Once deployed, the protocol operates autonomously.
+      </p>
+      <p>
+        If the rules say something is fixed, locked, or vested, it can be verified by anyone — directly from the blockchain.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>What it enables</h2>
+      <p>
+        By removing identity requirements and discretionary control, PolkaProof enables privacy-preserving participation
+        while still supporting verifiable transparency. The protocol can serve as a neutral trust primitive for communities,
+        builders, and governance systems.
+      </p>
+    </div>
+
+    <div class="cta">
+      <a class="btn primary" href="how.html">Next: How It Works</a>
+      <a class="btn" href="whitepaper.html">Read the Whitepaper</a>
+    </div>
+
+    <div class="footer">
+      <p>
+        PolkaProof — Trust Without Identity
+      </p>
+    </div>
+  </div>
+</body>
+</html>
